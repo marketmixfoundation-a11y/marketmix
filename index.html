@@ -1,0 +1,215 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>MarketMix — blur the background, keep the subject</title>
+  <meta name="description" content="Download MarketMix Edit for Windows and MarketMix Camera for Android. On-device subject blur for video and photos — free, open source, nothing uploaded.">
+  <meta name="theme-color" content="#07090d">
+  <meta property="og:title" content="MarketMix — blur the background, keep the subject">
+  <meta property="og:description" content="Two free apps that find the person in the frame and blur everything behind them. Windows and Android downloads.">
+  <meta property="og:type" content="website">
+  <link rel="icon" href="assets/favicon.png" type="image/png">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="aurora" aria-hidden="true"></div>
+
+  <header class="topbar">
+    <a class="brand" href="#top">
+      <img src="assets/favicon.png" alt="" width="26" height="26">
+      <span>MarketMix</span>
+    </a>
+    <nav aria-label="Sections">
+      <a href="#windows">Windows</a>
+      <a href="#android">Android</a>
+      <a href="#install">Install</a>
+      <a href="#source">Source</a>
+    </nav>
+  </header>
+
+  <main id="top">
+    <section class="hero">
+      <div class="hero-copy">
+        <p class="eyebrow"><span class="dot"></span>On-device subject blur</p>
+        <h1>Blur the background.<br>Keep the <em>subject</em>.</h1>
+        <p class="lede">MarketMix finds the person in the frame and blurs everything behind them — live while you record on Android, or while you edit on Windows. Everything runs on your device.</p>
+
+        <div class="downloads">
+          <a class="btn btn-primary" href="https://github.com/marketmixfoundation-a11y/marketmix-edit/releases/download/v0.1.0/MarketMix-Edit-Setup-0.1.0.exe">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 4.6 10.6 3.6v7.8H3V4.6Zm8.6-1.2L21 2v9.4h-9.4V3.4ZM3 12.4h7.6v7.9L3 19.3v-6.9Zm8.6 0H21V22l-9.4-1.3v-8.3Z"/></svg>
+            <span class="btn-text">Download for Windows<small>MarketMix Edit · 211 MB</small></span>
+          </a>
+          <a class="btn btn-ghost" href="https://github.com/marketmixfoundation-a11y/marketmix-camera/releases/download/v0.1.0/MarketMix-Camera-0.1.0.apk">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6.2 8.4h11.6v9.1a2.3 2.3 0 0 1-2.3 2.3h-.6v2.1a1.2 1.2 0 0 1-2.4 0v-2.1h-1.6v2.1a1.2 1.2 0 0 1-2.4 0v-2.1H8.5a2.3 2.3 0 0 1-2.3-2.3V8.4Zm-2.5.1a1.2 1.2 0 0 1 2.4 0v5.6a1.2 1.2 0 0 1-2.4 0V8.5Zm16.6 0a1.2 1.2 0 0 1 2.4 0v5.6a1.2 1.2 0 0 1-2.4 0V8.5ZM8.2 7.2 6.9 4.9a.4.4 0 0 1 .7-.4l1.3 2.4a7.8 7.8 0 0 1 6.2 0l1.3-2.4a.4.4 0 0 1 .7.4l-1.3 2.3A5.9 5.9 0 0 1 18 13H6a5.9 5.9 0 0 1 2.2-5.8Zm2.2 3.1a.8.8 0 1 0 0-1.6.8.8 0 0 0 0 1.6Zm5.5-.8a.8.8 0 1 0 1.6 0 .8.8 0 0 0-1.6 0Z"/></svg>
+            <span class="btn-text">Download for Android<small>MarketMix Camera · 24 MB</small></span>
+          </a>
+        </div>
+
+        <ul class="facts">
+          <li>Free &amp; open source</li>
+          <li>No account</li>
+          <li>Nothing uploaded</li>
+        </ul>
+      </div>
+
+      <figure class="compare" aria-label="Illustration: the background blurred, the subject sharp">
+        <div class="frame">
+          <div class="scene scene-original" aria-hidden="true">
+            <span class="blob b1"></span><span class="blob b2"></span><span class="blob b3"></span>
+            <span class="shelf"></span><span class="monitor"></span>
+            <svg class="person" viewBox="0 0 120 150" aria-hidden="true">
+              <circle cx="60" cy="44" r="26"/>
+              <path d="M14 150c0-27 20-46 46-46s46 19 46 46Z"/>
+            </svg>
+          </div>
+          <figcaption>Camera original</figcaption>
+        </div>
+        <div class="frame">
+          <div class="scene scene-mixed" aria-hidden="true">
+            <div class="scene-blur">
+              <span class="blob b1"></span><span class="blob b2"></span><span class="blob b3"></span>
+              <span class="shelf"></span><span class="monitor"></span>
+            </div>
+            <svg class="person" viewBox="0 0 120 150" aria-hidden="true">
+              <circle cx="60" cy="44" r="26"/>
+              <path d="M14 150c0-27 20-46 46-46s46 19 46 46Z"/>
+            </svg>
+            <span class="tag">Subject sharp</span>
+          </div>
+          <figcaption>With MarketMix</figcaption>
+        </div>
+      </figure>
+    </section>
+
+    <section class="apps" aria-label="The two apps">
+      <article class="card" id="windows" data-os="windows">
+        <header class="card-head">
+          <img src="assets/marketmix-edit.png" alt="MarketMix Edit icon" width="56" height="56">
+          <div>
+            <h2>MarketMix Edit</h2>
+            <p>Desktop video editor</p>
+          </div>
+          <span class="pill">Windows</span>
+        </header>
+        <p class="card-copy">Blur the background of a photo or clip, and keep the important objects sharp — a laptop screen, a product, a document — while everything else falls away.</p>
+        <ul class="features">
+          <li>Live preview of subject blur while you edit</li>
+          <li>Smart objects stay sharp inside the frame</li>
+          <li>Effect baked into the exported file</li>
+          <li>Export to MP4 · works offline</li>
+        </ul>
+        <a class="btn btn-primary btn-block" href="https://github.com/marketmixfoundation-a11y/marketmix-edit/releases/download/v0.1.0/MarketMix-Edit-Setup-0.1.0.exe">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3v11.2l4.1-4.1 1.4 1.4L11 17.9 4.5 11.5l1.4-1.4 4.1 4.1V3h2ZM4 19h16v2H4v-2Z"/></svg>
+          <span class="btn-text">Download for Windows<small>Setup .exe · 211 MB</small></span>
+        </a>
+        <p class="meta">Windows 10 / 11 · 64-bit</p>
+      </article>
+
+      <article class="card" id="android" data-os="android">
+        <header class="card-head">
+          <img src="assets/marketmix-camera.png" alt="MarketMix Camera icon" width="56" height="56">
+          <div>
+            <h2>MarketMix Camera</h2>
+            <p>Camera app</p>
+          </div>
+          <span class="pill">Android</span>
+        </header>
+        <p class="card-copy">Hit record and the background is already blurred. The subject stays sharp, the blur is written straight into the video, so there is nothing to edit afterwards.</p>
+        <ul class="features">
+          <li>Live blur while recording</li>
+          <li>Baked into the saved MP4</li>
+          <li>Original 16:9 framing kept — no stretching</li>
+          <li>Sound recorded · saves to your gallery</li>
+        </ul>
+        <a class="btn btn-ghost btn-block" href="https://github.com/marketmixfoundation-a11y/marketmix-camera/releases/download/v0.1.0/MarketMix-Camera-0.1.0.apk">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3v11.2l4.1-4.1 1.4 1.4L11 17.9 4.5 11.5l1.4-1.4 4.1 4.1V3h2ZM4 19h16v2H4v-2Z"/></svg>
+          <span class="btn-text">Download for Android<small>APK · 24 MB</small></span>
+        </a>
+        <p class="meta">Android 10 or newer · camera phone</p>
+      </article>
+    </section>
+
+    <section class="how" aria-labelledby="how-title">
+      <h2 id="how-title">How the blur happens</h2>
+      <ol class="steps">
+        <li>
+          <span class="num">01</span>
+          <h3>Find the subject</h3>
+          <p>A segmentation model runs on every frame, on your device, and keeps a mask of the person.</p>
+        </li>
+        <li>
+          <span class="num">02</span>
+          <h3>Mix sharp and soft</h3>
+          <p>The mask blends a sharp copy of the frame with a GPU-blurred copy of the background.</p>
+        </li>
+        <li>
+          <span class="num">03</span>
+          <h3>Write it into the file</h3>
+          <p>On Android the finished frame goes straight into the video encoder — the blur is in the recording, not added later.</p>
+        </li>
+      </ol>
+    </section>
+
+    <section class="install" id="install" aria-labelledby="install-title">
+      <h2 id="install-title">Install</h2>
+      <div class="install-grid">
+        <div>
+          <h3><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 4.6 10.6 3.6v7.8H3V4.6Zm8.6-1.2L21 2v9.4h-9.4V3.4ZM3 12.4h7.6v7.9L3 19.3v-6.9Zm8.6 0H21V22l-9.4-1.3v-8.3Z"/></svg> Windows</h3>
+          <ol>
+            <li>Download <strong>MarketMix-Edit-Setup-0.1.0.exe</strong> above.</li>
+            <li>Run the installer and pick an install folder.</li>
+            <li>If Windows SmartScreen appears, choose <strong>More info → Run anyway</strong>. The installer is not code-signed.</li>
+            <li>Open <strong>MarketMix Edit</strong> from the Start menu.</li>
+          </ol>
+        </div>
+        <div>
+          <h3><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6.2 8.4h11.6v9.1a2.3 2.3 0 0 1-2.3 2.3h-.6v2.1a1.2 1.2 0 0 1-2.4 0v-2.1h-1.6v2.1a1.2 1.2 0 0 1-2.4 0v-2.1H8.5a2.3 2.3 0 0 1-2.3-2.3V8.4Z"/></svg> Android</h3>
+          <ol>
+            <li>Download <strong>MarketMix-Camera-0.1.0.apk</strong> on your phone.</li>
+            <li>Open it and allow <strong>install unknown apps</strong> for the app you downloaded it with.</li>
+            <li>Tap <strong>Install</strong>, then allow camera and microphone access.</li>
+            <li>Press the red button to record. Clips land in <strong>Movies/MarketMix Camera</strong>.</li>
+          </ol>
+        </div>
+      </div>
+    </section>
+
+    <section class="source" id="source" aria-labelledby="source-title">
+      <h2 id="source-title">Source</h2>
+      <p>Both apps are open source under the MIT license. Models come from MediaPipe (Apache 2.0).</p>
+      <div class="repo-links">
+        <a href="https://github.com/marketmixfoundation-a11y/marketmix-edit">
+          <svg viewBox="0 0 16 16" aria-hidden="true"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27s1.36.09 2 .27c1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8Z"/></svg>
+          marketmix-edit
+          <small>Desktop editor</small>
+        </a>
+        <a href="https://github.com/marketmixfoundation-a11y/marketmix-camera">
+          <svg viewBox="0 0 16 16" aria-hidden="true"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27s1.36.09 2 .27c1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8Z"/></svg>
+          marketmix-camera
+          <small>Android camera</small>
+        </a>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <span>MarketMix Foundation · 2026</span>
+    <span>Runs offline · MIT license</span>
+  </footer>
+
+  <script>
+    (function () {
+      var ua = navigator.userAgent;
+      var os = /Android/i.test(ua) ? 'android' : (/Windows/i.test(ua) ? 'windows' : null);
+      if (!os) return;
+      var card = document.querySelector('[data-os="' + os + '"]');
+      if (card) {
+        card.classList.add('for-you');
+        var pill = card.querySelector('.pill');
+        if (pill) pill.textContent = 'Your device';
+      }
+    })();
+  </script>
+</body>
+</html>
